@@ -1,9 +1,9 @@
 import time, pyautogui
 
-print("Mantendo a tela ligada...\nPara desligar, feche o terminal.")
+print("Mantendo o computador acordado...\nPara desligar, feche o terminal.")
 
 while True:
-    pyautogui.press('volumedown')
-    time.sleep(1)
     pyautogui.press('volumeup')
+    time.sleep(1)
+    pyautogui.press('volumedown')
     time.sleep(300)
